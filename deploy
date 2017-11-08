@@ -1,0 +1,8 @@
+-#!/bin/sh      
+ssh ubuntu@ec2-34-237-245-250.compute-1.amazonaws.com<<EOF        
+ cd /bitPI
+ git pull       
+ npm install --production       
+ pm2 restart all
+ exit       
+EOF
