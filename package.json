@@ -1,6 +1,13 @@
 {
-    "name":"botPI",
-    "description": "BOT based on RaspberryPI that is cloud driven"
+    "name": "botPI",
+    "description": "BOT based on RaspberryPI that is cloud driven",
     "version": "0.0.1",
-    "private": true
+    "private": true,
+    "dependencies": {
+        "express": "^4.16.2"
+    },
+    "devDependencies": {
+        "mocha": "^4.0.1",
+        "supertest": "^3.0.0"
+    }
 }
