@@ -1,0 +1,6 @@
+{
+    "name":"botPI",
+    "description": "BOT based on RaspberryPI that is cloud driven"
+    "version": "0.0.1",
+    "private": true
+}
